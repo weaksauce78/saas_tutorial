@@ -20,7 +20,7 @@ h1,h2,h3{
     font-family: 'Open Sans', sans-serif;
 }
 .navbar, .home-callout{
-    //Gradient provided by @_ighosh at uiGradients.com
+    /*Gradient provided by @_ighosh at uiGradients.com */
     background: #00c6ff; /* fallback for old browsers*/
     background: -webkit-linear-gradient(to left, #00c6ff, #0072ff); /*Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to left, #00c6ff, #0072ff); /* W3C, IE 10+/Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+  */
@@ -28,6 +28,20 @@ h1,h2,h3{
 
 .navbar{
     border:none;
+}
+.navbar-default .navbar-brand{
+    color:#FFF;
+}
+.navbar-default .navbar-brand:hover{
+    color:#FFF;
+    opacity:0.75;
+}
+.navbar-default .navbar-nav > li > a{
+    color:#FFF;
+}
+.navbar-default .navbar-nav >li > a:hover{
+    color:#FFF;
+    opacity:0.75;
 }
 .home-callout{
     margin-top:-20px;
